@@ -1,0 +1,64 @@
+verificar versao do python;
+
+python3 --version;
+
+#!/usr/bin/python3 : (xbang) atalho para utilizar o meu arquivo python. É um caminho para o interpretador;
+
+chmod +x hello.py : Dar permissão para o arquivo. (Ação no terminal);
+
+./hello.py : para executar esse código acima
+
+# : é um comentário 
+
+which python3 : achar o python
+
+ALT + setinha : muda a posição no código
+
+ctrl+k+c: insere o comentário na linha
+
+sudo dpkg-reconfigure locales : Configurar o idioma do Linux;
+
+Pesquisar o que é um input(é uma string) : pega o que foi armazenado na memória;
+
+no terminal: python e depois  type(alguma coisa) : Esse comando verifica o tipo do dado;
+
+.format : vai colocar o valor dentro das chaves;
+
+title: Deixa o texto com os caracteres iniciais em maiúsculas
+
+upper: deixa o texto com todos os caracteres em maiúsculo
+
+strip: compara os espaços do nome por exemplo
+	('claudia oliveira'.replace('  ', ' ') == 'claudia oliveira'
+
+echo \#\!$(which python3) > lista.py ; 
+chmod +x list.py
+
+
+
+
+Iniciar o git:
+#
+
+or create a new repository on the command line
+
+echo "# 520_4linux" >> README.md
+git init
+git status
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/claudiasoliveira00/520_4linux.git
+git push -u origin master
+
+
+#
+
+verificar no github
+
+Configurar na máquina de casa:
+
+git config --global user.email claudiasoliveira00@gmail.com
+
+
+
+
