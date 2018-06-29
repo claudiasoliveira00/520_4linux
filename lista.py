@@ -110,3 +110,5 @@
 # nome = 'claudia silva de oliveira'
 # nome.split()
 
+# a lista sempre precisa de uma posição inicial
+
