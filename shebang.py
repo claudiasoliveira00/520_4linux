@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 # nome = input('digite o nome do arquivo: ')
 # with open(nome, 'r+') as arquivo:
 #     arquivo.seek(0)
