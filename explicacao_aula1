@@ -31,8 +31,7 @@ upper: deixa o texto com todos os caracteres em maiúsculo
 strip: compara os espaços do nome por exemplo
 	('claudia oliveira'.replace('  ', ' ') == 'claudia oliveira'
 
-echo \#\!$(which python3) > lista.py ; 
-chmod +x list.py
+echo \#\!$(which python3) > lista.py && chmod +x list.py
 
 
 
