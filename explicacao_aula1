@@ -50,7 +50,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/claudiasoliveira00/520_4linux.git
 git push -u origin master
 
-
+git clone https://github.com/claudiasoliveira00/520_4linux.git -- para clonar o diretório do github
 #
 
 verificar no github
