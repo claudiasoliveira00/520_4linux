@@ -24,10 +24,14 @@
 # else: # -- Else pertence ao for
 #     print('não achei')
 
-nomes = ['daniel','joao', 'pedro', 'maria']
-for x in range(20,0,-1):
-    if x == 'roberto':
-        print(x)
-        break        
-else: # -- Else pertence ao for
-    print('não achei')
+# nomes = ['daniel','joao', 'pedro', 'maria']
+# for x in range(20,0,-1):
+#     if x == 'roberto':
+#         print(x)
+#         break        
+# else: # -- Else pertence ao for
+#     print('não achei')
+
+# import funcao
+
+# funcao.boas_vindas('joaozinho',30)
