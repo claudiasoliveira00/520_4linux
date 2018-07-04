@@ -8,6 +8,7 @@
 # boas_vindas('jose', 25)
 # boas_vindas('maria', 43)    
 
+
 # Parametros nomeados  
 # def boas_vindas(nome,idade): 
 #     print('Oi, sou o(a) {} e tenho {} anos'.format(nome,idade))

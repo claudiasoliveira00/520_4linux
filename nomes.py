@@ -3,6 +3,7 @@
 ### criar um arquivo que a pessoa adiciona nomes e quando a pessoa digitar sair, o arquivo fecha
 
 
+
 # with open('pessoas.txt','a') as nomes:
 #     while True:
 #         nome = input('Digite um nome: ')       

@@ -43,7 +43,7 @@ while True:
             result= '{}, {}'.format(e, d.strftime('%Y-%m-%d %H:%M'))
             arquivo.write(result)
         break
-
+##
 
 
     

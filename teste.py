@@ -2,6 +2,7 @@
 #!/usr/bin/python3
 #!/usr/bin/python3
 
+
 # linguagem = input('Qual a melhor linguagem? ')
 # if linguagem == 'python':
 #     print('você acertou')

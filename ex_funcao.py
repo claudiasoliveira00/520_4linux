@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # abrir o arquivo 
 
+
 def escr_arq(nome_arq,conteudo):   
     try:
         with open(nome_arq, 'w') as arq:        
