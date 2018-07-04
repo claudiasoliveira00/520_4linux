@@ -31,8 +31,7 @@ upper: deixa o texto com todos os caracteres em maiúsculo
 strip: compara os espaços do nome por exemplo
 	('claudia oliveira'.replace('  ', ' ') == 'claudia oliveira'
 
-echo \#\!$(which python3) > lista.py ; 
-chmod +x list.py
+echo \#\!$(which python3) > lista.py && chmod +x list.py
 
 
 
@@ -50,7 +49,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/claudiasoliveira00/520_4linux.git
 git push -u origin master
 
-
+git clone https://github.com/claudiasoliveira00/520_4linux.git -- para clonar o diretório do github
 #
 
 verificar no github
