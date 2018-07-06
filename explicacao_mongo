@@ -1,0 +1,41 @@
+mongo
+para verificar as tabelas:
+show dbs
+
+Pra criar uma base de dados:
+use 4linux
+
+
+Ver tabelas:
+show tables
+show collections
+
+Criar tabela:
+db.pessoas.insert({'_id':1, 'nome':'daniel', 'idade':24})
+
+selec na tabela pessoas:
+db.pessoas.find()
+db.pessoas.find().pretty()
+
+select em um dado:
+db.pessoas.find({'_id':2})
+
+Remover uma pessoa:
+db.pessoas.remove({'_id':1}) # É possível remover passando outros campos
+
+Update em algum dado:
+Necessário passar o ID e depois o que deseja alterar/inserir. É necessário inserir o '$set':{}
+db.pessoas.update({'_id':1},{'$set':{'sobrenome':'prata'}})
+
+'''
+show dbs # verificar base de dados
+show tables ou show collections # verificar collections ou tabelas
+use database # se não existir a base de dados ele cria
+db.collections.insert() # inseri dados na tabela
+db.collections.update() # atualizar dados '$set':{'nome': 'alterado', 'sobrenome':'novosobrenome'}
+db.collections.find() # buscar dados {'_id':2}
+db.collections.remove() # remover dados {'_id':2}
+
+'''
+
+# http://dontpad.com ------- Inserir conteudo online
